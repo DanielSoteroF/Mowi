@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+.header-main{
+    font-size: 25px;
+}
+
+.btn-conductores{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 3px ;
+    margin: 10px;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.btn-pasajero{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 3px ;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.btn-conductores:hover{
+    background-color: rgb(255, 251, 0);
+    color: rgb(0, 0, 0);
+    border:solid 1px rgb(255, 251, 0);
+}
+.btn-pasajero:hover{
+    background-color: rgb(255, 251, 0);
+    color: rgb(0, 0, 0);
+    border:solid 1px rgb(255, 251, 0);
+}
