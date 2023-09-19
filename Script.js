@@ -1,26 +1,4 @@
-// let navegador = navigator.userAgent;
-// function redirecionar(){
-//     if(navigator.userAgent.match(/Android/i)){
-//         window.open("https://play.google.com/store/apps/details?id=com.mowitunigperu.mowitaxi.mowiconductor&hl=es");
-//     }
-
-//     if(navigator.userAgent.match(/iPhone/i)||navigator.userAgent.match(/iPad/i)||navigator.userAgent.match(/iPod/i)){
-//         window.open("https://apps.apple.com/uy/app/mowi-conductor");
-//     }
-// }
-
-// function redireccionPasajero(){
-//     if(navigator.userAgent.match(/Android/i)){
-//         window.open("https://play.google.com/store/apps/details?id=com.mowitunigperu.mowitaxi.mowicliente&hl=es");
-//     }
-
-//     if(navigator.userAgent.match(/iPhone/i)||navigator.userAgent.match(/iPad/i)||navigator.userAgent.match(/iPod/i)){
-//         window.open("https://play.google.com/store/apps/details?id=com.mowitunigperu.mowitaxi.mowicliente&hl=es");
-//     }
-// }
-
-
-        document.getElementById("redireccionConductor").addEventListener("click", function() {
+          document.getElementById("redireccionConductor").addEventListener("click", function() {
             var plataforma = detectarPlataforma();
             if (plataforma === "android") {
                 // Redirige a la Play Store de Android
